@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2026 wumingzhinu
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<resources>
+    <string name="enter_password">输入密码</string>
+    <string name="incorrect_password">密码不正确。</string>
+    <string name="choose_vault_root_dir">选择目录</string>
+    <string name="storage_location_text">要创建新的保险箱，请在设备或 SD 卡上选择一个空文件夹。要打开现有的保险箱，请选择相应的文件夹。</string>
+    <string name="set_password">设置密码</string>
+    <string name="setup_password_text">加密依赖于密码。请务必牢记密码，因为一旦丢失，文件将无法恢复。</string>
+    <string name="repeat_password">再次输入密码</string>
+    <string name="inputs_do_not_match">两次输入不一致。</string>
+    <string name="password_length">密码长度至少需要 %d 个字符。</string>
+    <string name="foreground_service">前台服务</string>
+    <string name="encrypting_files">正在加密文件</string>
+    <string name="decrypting_files">正在解密文件</string>
+    <string name="deleting_files">正在删除文件</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="file_not_supported_info">暂不支持此文件格式。您可以直接按需解密该文件。</string>
+    <string name="create_or_open_vault">创建或打开保险箱</string>
+    <string name="clear">清空</string>
+    <string name="settings">设置</string>
+    <string name="vault">保险箱</string>
+    <string name="app">应用</string>
+    <string name="logging">日志记录</string>
+    <string name="biometric_unlocking">生物识别解锁</string>
+    <string name="setup_biometrics">设置生物识别</string>
+    <string name="confirm_vaults_password">确认保险箱的密码</string>
+    <string name="setup_biometrics_description">只有一个保险箱可以使用生物识别解锁。如果您为另一个保险箱启动生物识别设置，前一个保险箱的生物识别设置将被自动移除。</string>
+    <string name="vault_using_biometric_unlocking">此保险箱已配置生物识别解锁。</string>
+    <string name="create_new_folder">新建文件夹</string>
+    <string name="folder_name">文件夹名称</string>
+    <string name="no_existing_vault_info">创建新的保险箱或打开现有保险箱以开始使用。</string>
+    <string name="no_vault_found_title">未找到保险箱</string>
+    <string name="biometric_unlocking_failed">生物识别解锁失败！请使用密码解锁保险箱。</string>
+    <string name="delete_warning">您即将删除选中的文件和文件夹。此操作无法撤销！</string>
+    <string name="confirm_deletion">确认删除</string>
+    <string name="encrypted_file_not_found">未找到加密文件！</string>
+    <string name="notification_permission_description">后台加密和解密需要此权限。仅显示低优先级的进度通知。</string>
+    <string name="notification_permission_title">需要通知权限</string>
+    <string name="grant_permission">授予权限</string>
+    <string name="open_app_settings">打开应用设置</string>
+    <string name="fit_images_to_match_screen">调整图片以匹配屏幕尺寸</string>
+    <string name="create_vault">创建保险箱</string>
+    <string name="create">创建</string>
+    <string name="error_unlocking_vault">无法解锁保险箱。</string>
+    <string name="confirm_lock_vault">再次点击以锁定保险箱。</string>
+    <string name="decrypted_files">文件解密完成</string>
+    <string name="open_directory">打开目录</string>
+    <string name="relocating_files">正在移动文件</string>
+    <string name="move_here">移到此处</string>
+    <string name="note_relocate_files_to_root">请注意，文件无法移动到保险箱的根目录。</string>
+    <string name="folders_and_files_selected">已选择 %1$s 个文件夹和 %2$s 个文件</string>
+    <string name="vault_name">保险箱名称</string>
+    <string name="vault_name_change_hint">请注意，保险箱名称未加密，以便在解锁前用于识别保险箱。</string>
+    <string name="settings_description_vault">保险箱名称、生物识别解锁</string>
+    <string name="settings_description_app">外观、调试</string>
+    <string name="settings_legal">法律信息</string>
+    <string name="settings_legal_description">许可证、版权</string>
+    <string name="rename_folder">重命名文件夹</string>
+    <string name="rename">重命名</string>
+    <string name="delete_source_files">删除源文件</string>
+    <string name="encrypt_files">加密文件</string>
+    <string name="select">选择</string>
+    <string name="settings_repository">GitHub</string>
+    <string name="settings_repository_description">源代码、问题跟踪、更新日志</string>
+    <string name="select_directory">选择目录</string>
+    <string name="appearance">外观</string>
+    <string name="debugging">调试</string>
+    <string name="logging_description">写入系统日志（“logcat”）</string>
+    <string name="allow_screen_capture">允许截屏</string>
+    <string name="allow_screen_capture_description">允许截图和屏幕录制</string>
+    <string name="info_card_debugging_title">调试功能已启用</string>
+    <string name="info_card_debugging_description">至少有一项调试设置处于开启状态。如果这不是有意的，请在创建或解锁保险箱前将其关闭。</string>
+    <string name="info_card_backup_title">有备份吗？</string>
+    <string name="info_card_backup_description">拥有备份至关重要！只需将您选择的保险箱文件夹复制到其他存储设备或云端即可。</string>
+    <string name="info_card_feedback_title">喜欢 Truvark 吗？</string>
+    <string name="info_card_feedback_description">非常欢迎您帮忙宣传或在 GitHub 上点亮星标。谢谢！</string>
+</resources>

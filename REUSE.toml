@@ -23,6 +23,11 @@ SPDX-FileCopyrightText = "2026 nemoXdev"
 SPDX-License-Identifier = "GPL-3.0-or-later"
 
 [[annotations]]
+path = "fastlane/metadata/android/zh-CN/**"
+SPDX-FileCopyrightText = "2026 wumingzhinu"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+[[annotations]]
 path = "gradle/wrapper/gradle-wrapper.jar"
 SPDX-FileCopyrightText = "2015 the original authors"
 SPDX-License-Identifier = "Apache-2.0"
